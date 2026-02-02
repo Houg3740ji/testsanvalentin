@@ -1,6 +1,6 @@
 import { Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-couple.jpg";
+import heroImage from "@/assets/hero-couple.webp";
 const HeroSection = () => {
   const scrollToPayment = () => {
     document.getElementById("pago")?.scrollIntoView({

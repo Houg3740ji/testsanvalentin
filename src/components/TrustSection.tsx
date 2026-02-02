@@ -5,7 +5,7 @@ const TrustSection = () => {
     {
       icon: Award,
       title: "Servicio profesional",
-      description: "Fotógrafos con años de experiencia en bodas y parejas"
+      description: "Fotógrafos con +10 años de experiencia en bodas y parejas"
     },
     {
       icon: Users,
@@ -15,7 +15,7 @@ const TrustSection = () => {
     {
       icon: MapPin,
       title: "Toda España",
-      description: "Disponibles en cualquier ciudad del territorio nacional"
+      description: "Disponible en Madrid, Barcelona, Valencia, Sevilla, Zaragoza, Málaga, Bilbao, Córdoba y A Coruña"
     }
   ];
 

@@ -26,7 +26,7 @@ const PaymentSection = () => {
               className="w-full md:w-auto text-lg px-12 py-7 shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <CreditCard className="w-5 h-5 mr-2" />
-              Pagar 150 € de forma segura
+              Pagar 180 € de forma segura
             </Button>
           </a>
           

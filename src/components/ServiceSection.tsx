@@ -18,10 +18,10 @@ const ServiceSection = () => {
     text: "1 hora de sesión en tu ciudad"
   }, {
     icon: Images,
-    text: "Decenas de fotos capturadas de forma natural"
+    text: "Durante la sesión se harán muchísimas fotografías, capturando cada gesto y momento de forma natural."
   }, {
     icon: Sparkles,
-    text: "10 fotografías editadas profesionalmente, seleccionadas para reflejar vuestra conexión y vuestro amor"
+    text: "Elegís vuestras 10 favoritas, que se entregan editadas profesionalmente, con opción a más."
   }];
   return <section className="py-20 bg-card">
       <div className="container mx-auto px-4">
@@ -41,7 +41,15 @@ const ServiceSection = () => {
         </div>
         
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-16">
-          {features.map((feature, index) => {})}
+          {features.map((feature, index) => (
+            <div key={index} className="text-center p-6">
+              <div className="w-14 h-14 rounded-full bg-accent flex items-center justify-center mx-auto mb-4">
+                <feature.icon className="w-7 h-7 text-primary" />
+              </div>
+              <h3 className="font-semibold text-foreground mb-2">{feature.title}</h3>
+              <p className="text-muted-foreground text-sm">{feature.description}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>;
