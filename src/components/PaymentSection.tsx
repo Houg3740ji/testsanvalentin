@@ -1,7 +1,7 @@
 import { CreditCard, Shield, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const STRIPE_LINK = "https://buy.stripe.com/bJeeVdfGTgbdbrb5XXao80V";
+const STRIPE_LINK = "https://buy.stripe.com/aFa4gz66j0cf52Ncmlao80W";
 
 const PaymentSection = () => {
   return (
