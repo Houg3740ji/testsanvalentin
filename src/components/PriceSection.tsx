@@ -32,7 +32,7 @@ const PriceSection = () => {
             <div className="text-center pt-4">
               <p className="text-muted-foreground mb-2">Precio único</p>
               <div className="flex items-baseline justify-center gap-1 mb-2">
-                <span className="font-sans text-5xl md:text-6xl font-bold text-foreground">150</span>
+                <span className="font-sans text-5xl md:text-6xl font-bold text-foreground">180</span>
                 <span className="text-2xl text-muted-foreground">€</span>
               </div>
               <p className="text-sm text-muted-foreground">Pago único • Sin costes adicionales</p>
