@@ -27,7 +27,7 @@ const HeroSection = () => {
             <span className="text-primary">San Valentín</span>
           </h1>
           
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto leading-relaxed text-[#2a2522]">
             Sesión de fotos profesional para parejas, capturando vuestro amor de forma natural y auténtica
           </p>
           
