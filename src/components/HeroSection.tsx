@@ -22,7 +22,7 @@ const HeroSection = () => {
             <span className="text-sm font-medium">Edición especial</span>
           </div>
           
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
+          <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
             El regalo perfecto para{" "}
             <span className="text-primary">San Valentín</span>
           </h1>

@@ -13,6 +13,13 @@ const PriceSection = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-lg mx-auto">
+          {/* Highlighted Message */}
+          <div className="text-center mb-8">
+            <p className="font-sans text-xl md:text-2xl font-medium text-foreground italic">
+              "Sorprende a tu pareja con algo que solo será vuestro."
+            </p>
+          </div>
+          
           <div className="relative bg-card rounded-3xl p-8 md:p-10 border border-border shadow-xl">
             {/* Badge */}
             <div className="absolute -top-4 left-1/2 -translate-x-1/2">
@@ -25,7 +32,7 @@ const PriceSection = () => {
             <div className="text-center pt-4">
               <p className="text-muted-foreground mb-2">Precio único</p>
               <div className="flex items-baseline justify-center gap-1 mb-2">
-                <span className="font-serif text-5xl md:text-6xl font-bold text-foreground">150</span>
+                <span className="font-sans text-5xl md:text-6xl font-bold text-foreground">150</span>
                 <span className="text-2xl text-muted-foreground">€</span>
               </div>
               <p className="text-sm text-muted-foreground">Pago único • Sin costes adicionales</p>
